@@ -69,6 +69,7 @@ public class News extends AppCompatActivity {
 
               getupdatefromnet(dataSnapshot);
           c=c%100;
+              c++;
           }
 
           @Override
