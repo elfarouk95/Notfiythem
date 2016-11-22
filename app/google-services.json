@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "679398468378",
+    "firebase_url": "https://notify-them.firebaseio.com",
+    "project_id": "notify-them",
+    "storage_bucket": "notify-them.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679398468378:android:f1076ef6ffc2b9ec",
+        "android_client_info": {
+          "package_name": "com.example.alfaroukomar.notfiythem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "679398468378-h3udppv8sd27e2nofdsjo88k6bpmicqn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcEyAqlsdyb1bgcoxGjglajiDITzIaA7o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

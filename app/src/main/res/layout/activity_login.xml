@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alfaroukomar.notfiythem.Login"
+    android:background="#1396d3">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Notify them"
+        android:id="@+id/textView"
+        android:textSize="40dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@mipmap/ic_launcher"
+        android:minHeight="100dp"
+        android:minWidth="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/Email2"
+        android:textColor="#ffffff"
+        android:background="#000000"
+        android:layout_marginTop="65dp"
+        android:hint="Enter Your Email "
+        android:textSize="20dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/password"
+        android:layout_alignStart="@+id/password" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:textColor="#ffffff"
+        android:id="@+id/password"
+        android:textSize="20dp"
+        android:layout_marginTop="69dp"
+        android:background="#000000"
+        android:hint="Enter Your Password "
+        android:layout_below="@+id/Email2"
+        android:layout_alignLeft="@+id/newaccount"
+        android:layout_alignStart="@+id/newaccount" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Email"
+        android:id="@+id/textView2"
+        android:layout_above="@+id/password"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="password"
+        android:id="@+id/textView3"
+        android:layout_alignTop="@+id/password"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:text="Log in"
+        android:id="@+id/Login"
+        android:layout_marginTop="45dp"
+        android:onClick="loginfunction"
+        android:layout_below="@+id/password"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:clickable="true"
+        android:background="#eeee00"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR Make your account"
+        android:id="@+id/newaccount"
+        android:textSize="20dp"
+        android:clickable="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/Login"
+        android:layout_alignEnd="@+id/Login"
+        android:onClick="Risg"/>
+
+</RelativeLayout>
